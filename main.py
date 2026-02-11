@@ -142,9 +142,22 @@ defineWorldCalU(calu)
 
 
 
+# 1 1 2 3 5 8 13
+def fibonacci(num_numbers):
+    first = 1
+    second = 1
+
+    print(first)
+    print(second)
+
+    for i in range(0, num_numbers):
+        temp = second
+        second += first
+        first = temp
+        print(second)
 
 
-
+fibonacci(100)
 
 
 
